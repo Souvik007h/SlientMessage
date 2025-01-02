@@ -1,4 +1,11 @@
-pip install opencv-python
+import subprocess
+import sys
+
+# Check if 'opencv-python' is installed, if not, install it
+try:
+    import cv2
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "opencv-python"])
 import streamlit as st
 import cv2
 import uuid
