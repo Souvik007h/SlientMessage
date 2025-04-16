@@ -23,11 +23,11 @@
 ### 🔏 Encoding (Hiding the Message)
 1. Upload a cover image.
 2. Enter your secret message.
-3. Click “Encode” — the app embeds your message into the image.
+3. Click “Embed” — the app embeds your message into the image.
 
 ### 🔓 Decoding (Retrieving the Message)
 1. Upload the stego image.
-2. Click “Decode” — the app extracts and displays the hidden message.
+2. Click “Extract” — the app extracts and displays the hidden message.
 
 ---
 
